@@ -1,0 +1,149 @@
+body {
+    background-color: #74AFAD;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    font-size: 3.5em;
+    margin-top: 0;
+}
+
+h1, h2, h3, a, p {
+    font-family: 'Bungee', cursive;
+}
+
+a {
+    color: #D9853B; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF0062;
+}
+
+/*----------------------------
+         THE LIST 
+------------------------------*/
+.list {
+    background-color: #FFF;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+}
+
+/*----------------------------
+         THE TASKS
+------------------------------*/
+
+.task_container {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.task_container .done {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+.task_container li {
+    border-bottom: 1px dashed #CCC;
+    padding: 15px 0;  
+}
+
+.task span {
+    font-weight: 600;
+}
+
+.message {
+    color: green;
+}
+
+.new_task_container input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+
+.new_task_container p {
+    color: #558C89;
+}
+
+/*----------------------------
+         BUTTONS
+------------------------------*/
+.btn_container {
+    margin-top: 16px;
+}
+
+.btn_box {
+    float: right;
+}
+
+.btn_box:last-of-type {
+    float: none;
+}
+
+.action_btn {
+    color: #FFF;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    background-color: #D9853B;
+    padding: 4px 8px;
+    border: 0;
+    margin-right: 8px;  
+}
+
+
+.action_btn:hover {
+    background-color: forestgreen;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.delete_btn:hover {
+    background-color: #D10000;
+}
+
+.edit_btn {
+    margin-left: 8px;
+}
+
+.edit_btn:hover {
+    background-color: #00878F;
+}
+
+.submit {
+    font-family: 'Bungee', cursive;
+    letter-spacing: 0.8px;
+    padding: 5px 10px;
+    border: 1px solid #DDD;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 3px 3px 0 #DDD;
+}
+
+.submit:hover {
+    color: #FFF;
+    background-color: #D9853B; 
+}
+/*----------------------------
+         FOOTER
+------------------------------*/
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*-----------------------------*/
+
+.clear {
+    clear: all;
+}
